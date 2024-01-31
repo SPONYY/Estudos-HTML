@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações</title>
+</head>
+
+<style>
+
+span{
+    color: red;
+}
+legend{
+
+    text-align: center;
+
+}
+fieldset{
+
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+}
+#navBarButtons{
+
+    text-align: right;
+    margin-left: 50ch;
+
+}
+#navBar{
+    text-align: left;
+}
+.card1{
+
+    border: solid 1px rgb(25, 0, 255);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    z-index: 1;
+    background-color: greenyellow;
+}
+.card2{
+
+border: solid 1px rgb(255, 0, 0);
+width: 150px;
+height: 150px;
+position: absolute;
+left: 35%;
+top: 35%;
+z-index: 2;
+background-color: black;
+
+}
+
+
+</style>
+
+<body>
+    <fieldset>
+        <legend>NavBar</legend>
+        <div id="navBar">
+            <mark><u>Você</u></mark> só <font color="red" face="'Trebuchet MS'"><u>morre</u></font> quando é <i><strong><u>esquecido</u></strong></i>.
+            <blockquote>Verdade...</blockquote>
+        </div>
+        <div id="navBarButtons">
+
+            <label>Logo</label><button type="menu"><a href="teste.html">Proxima Página</a></button>
+
+        </div>
+    </fieldset>
+
+        <div>
+            
+            <p>a <span>aaa</span></p>
+
+        </div>
+
+        <div class="card1"></div>
+        <div class="card2"></div>
+
+</body>
+</html>
