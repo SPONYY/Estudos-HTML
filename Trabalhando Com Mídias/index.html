@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias</title>
+</head>
+<style>
+
+.imagens{
+
+    border: solid 1px black;
+    padding: 10px;
+
+}
+.audioButton{
+
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+    display: flex;
+
+}
+.videos{
+
+    padding: 10px;
+
+}
+.iframes{
+
+padding: 10px;
+
+}
+</style>
+<body>
+    
+    <div class="imagens">
+        
+        <img src="Gifs/sukuna gif.gif" title="Gif Sukuna" alt="Gif do personagem ficticio SUKUNA utilizando sua expansão de dominio" width="400">
+        <img src="PNG/Sukunapng.png" title="Imagem Sukuna" alt="Sukuna Utilizando poder de fogo" width="200">
+    
+    </div>
+
+    <div class="audioButton">
+        <button onclick="playAudio()">Domain Expansion</button>
+        <audio id="audio" src="Audios/Malevolent Shrine_  [JJK Episode 17].mp3" controls></audio>
+    </div>
+
+    <div class="videos">
+
+        <video src="Videos/Sukuna Domain Expansion vs Mahoraga [4K 60FPS] _ Jujutsu Kaisen Season 2.mp4" title="Video sukuna utilizando a expansão de dominio contra o mahoraga" alt="Video sukuna utilizando a expansão de dominio contra o mahoraga" controls width="400"></video>
+
+    </div>
+
+    <div class="iframes">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1828.925416742025!2d-47.46654126032719!3d-23.5378669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a6913ec1af5%3A0x3600a69f6dbd7251!2sR.%20Em%C3%ADlio%20Nazaret%20Milone%2C%2030%20-%20Jardim%20Maria%20Jose%2C%20Sorocaba%20-%20SP%2C%2018110-700!5e0!3m2!1spt-BR!2sbr!4v1706733816010!5m2!1spt-BR!2sbr" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <script>
+
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+
+    </script>
+</body>
+</html>
