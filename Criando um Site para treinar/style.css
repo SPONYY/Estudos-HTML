@@ -127,3 +127,41 @@ video{
     text-align: center;
 
 }
+form{
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+    width: 50%; /* Define a largura do formulário */
+    padding: 20px; /* Adiciona algum espaçamento interno ao formulário */
+    background-color: #f2f2f2; /* Cor de fundo do formulário */
+    border-radius: 8px; /* Adiciona bordas arredondadas ao formulário */    
+}
+label {
+    display: block; /* Faz com que os rótulos ocupem uma linha inteira */
+    margin-bottom: 8px; /* Adiciona um espaço inferior entre os rótulos */
+    color: black;
+}
+
+/* Estilos para os campos de entrada do formulário */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%; /* Define a largura total para os campos de entrada */
+    padding: 8px; /* Adiciona algum espaçamento interno */
+    margin-bottom: 16px; /* Adiciona um espaço inferior entre os campos */
+    border-radius: 4px; /* Adiciona bordas arredondadas aos campos de entrada */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    box-sizing: border-box; /* Faz com que a largura inclua a espessura da borda */
+}
+
+/* Estilos para o botão de envio do formulário */
+input[type="submit"] {
+    background-color: #4CAF50; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; /* Adiciona algum espaçamento interno */
+    border: none; /* Remove a borda */
+    border-radius: 4px; /* Adiciona bordas arredondadas */
+    cursor: pointer; /* Altera o cursor ao pairar sobre o botão */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
