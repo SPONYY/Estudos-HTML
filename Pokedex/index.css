@@ -10,7 +10,7 @@ body, html{
 
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,8 +18,8 @@ body, html{
     background-color: rgb(9, 9, 68);
 }
 
-.main{
-    padding: 5vw;
+main{
+    margin-top: 5vh;
 }
 
 #logoHeader img {

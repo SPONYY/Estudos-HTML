@@ -10,7 +10,7 @@ body, html{
 
 }
 
-.header {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,7 +18,7 @@ body, html{
     background-color: #090944;
 }
 
-.main{
+main{
     padding: 5vw;
     display: flex;
     justify-content: space-between;
@@ -77,14 +77,16 @@ body, html{
     transition: background-color 0.3s, color 0.3s;
 }
 .pokemonCards:hover{
-    background-color: #090944;
+    display: flex;
+    background-color: #161638;
     padding: 2vw;
     width: 24vw;
     border-radius: 1vw;
     cursor: pointer;
     transition: background-color 0.3s, color 0.3s;
+    border: solid 4px #48484a;
+    color: white;
 }
-
 
 #pokemonCardImage img{
     width: 10vw;
@@ -92,4 +94,8 @@ body, html{
 
 #pokemonCardName{
     color: #090944;
+}
+.pokemonCards:hover #pokemonCardName {
+    margin-left: auto;
+    color: white;
 }
