@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos especiais</title>
+</head>
+
+<style>
+    kbd{
+        border: solid 1px black;
+    }
+    code{
+        color: red;
+        background-color:bisque ;
+    }
+</style>
+<body>
+
+    <input type="search" name="search"/>
+    <datalist id="browsers">
+        <option value="Chrome">Chrome</option>
+        <option value="Firefox">Firefox</option>
+        <option value="Safari">Safari</option>
+        <option value="Opera">Opera</option>
+    </datalist>
+
+    <hr>
+
+    <select name="browsers" id="">
+        <option value="Chrome">Chrome</option>
+        <option value="Firefox">Firefox</option>
+        <option value="Safari">Safari</option>
+        <option value="Opera">Opera</option>
+    </select>
+
+    <p>Copiar informações = <kbd>CTRL</kbd>+<kbd>C</kbd></p>
+    <p>Mudar a cor de fundo = <code> background-color</code></p>
+
+    <details>
+        <summary>Descrição bem longa aqui</summary>
+        <p>Descrição bem longa</p>
+    </details>
+
+    <progress max="100"></progress>
+
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;"></canvas>
+    
+</body>
+
+<script>
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.moveTo(0, 0);
+    ctx.lineTo(200, 100);
+    ctx.stroke();
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    ctx.beginPath();
+    ctx.arc(95, 50, 40, 0, 2 * Math.PI);
+    ctx.stroke();
+    </script>
+</html>
